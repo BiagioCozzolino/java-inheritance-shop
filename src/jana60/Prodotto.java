@@ -69,7 +69,8 @@ public class Prodotto {
 	// Override con metodo per formattare
 	@Override
 	public String toString() {
-		return "Frase da scrivere" + df.format(calcolaIva());
+		return "Complimenti per aver acquistato il prodotto " + nome + " della marca " + marca + " al prezzo di "
+				+ df.format(calcolaIva());
 	}
 
 }
