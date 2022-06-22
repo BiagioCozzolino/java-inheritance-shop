@@ -1,11 +1,15 @@
 package jana60;
 
 import java.text.DecimalFormat;
+import java.util.Random;
 
 public class Prodotto {
 
 	// Formattatore decimale
 	DecimalFormat df = new DecimalFormat("#.00€");
+
+	// Randon
+	Random rand = new Random();
 
 	// Attributi
 	private int codice;

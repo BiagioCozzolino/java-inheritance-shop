@@ -20,8 +20,7 @@ public class Smartphone extends Prodotto {
 	// Override e string finale
 	@Override
 	public String toString() {
-		return super.toString() + ". Il tuo cellulare con IMEI: " + codiceIMEI + " Con memoria di: " + quantitamemoria
-				+ "GB";
+		return super.toString() + ". Il tuo cellulare con IMEI: " + codiceIMEI + " Con memoria di: " + quantitamemoria + "GB";
 	}
 
 }
