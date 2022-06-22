@@ -3,8 +3,8 @@ package jana60;
 public class Cuffie extends Prodotto {
 
 	// Attributi
-	String colore;
-	boolean wireless;
+	private String colore;
+	private boolean wireless;
 
 	// Construttore
 	public Cuffie(int codice, String nome, String marca, double prezzo, String colore, boolean wireless) {
