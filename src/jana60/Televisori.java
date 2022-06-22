@@ -3,8 +3,8 @@ package jana60;
 public class Televisori extends Prodotto {
 
 	// Attributi
-	String dimensioni;
-	boolean smart;
+	private String dimensioni;
+	private boolean smart;
 
 	// Costruttore
 	public Televisori(int codice, String nome, String marca, double prezzo, String dimensioni, boolean smart) {
@@ -13,6 +13,7 @@ public class Televisori extends Prodotto {
 		this.smart = smart;
 	}
 
+	// Override e string finale con if per determinare smart o no
 	@Override
 	public String toString() {
 		String tipo = "";
