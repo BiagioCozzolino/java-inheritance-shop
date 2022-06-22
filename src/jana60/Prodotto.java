@@ -70,11 +70,15 @@ public class Prodotto {
 		return prezzo + ((prezzo / 100) * iva);
 	}
 
+	public String prezzoformattato() {
+		return df.format(calcolaIva());
+	}
+
 	// Override con metodo per formattare
 	@Override
 	public String toString() {
 		return "Complimenti per aver acquistato il prodotto " + nome + " della marca " + marca + " al prezzo di "
-				+ df.format(calcolaIva());
+				+ prezzoformattato();
 	}
 
 }
